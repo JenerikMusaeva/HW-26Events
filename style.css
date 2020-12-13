@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.squares {
+  display:flex;
+  justify-content: space-between;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 20px;
+  background-color: #7c7b7b;
+}
+
+.button-change-color{
+  background-color: rgb(81, 83, 240);
+  border: none;
+  padding:10px 20px;
+  color: #ffffff;
+  align-items: center;
+}
